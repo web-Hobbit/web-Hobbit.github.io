@@ -61,7 +61,7 @@ html, body{
 /*Низ шапки(картинка)*/
 
 .nav-bottom{
-	background-image: url("/img/NavBottomImg.jpg");
+	background-image: url(".../NavBottomImg.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
