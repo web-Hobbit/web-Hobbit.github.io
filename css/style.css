@@ -61,7 +61,7 @@ html, body{
 /*Низ шапки(картинка)*/
 
 .nav-bottom{
-	background-image: url("C:/Users/User/Desktop/Restorant/img/NavBottomImg.jpg");
+	background-image: url("/img/NavBottomImg.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -183,7 +183,7 @@ html, body{
 
 @media screen and (min-width: 320px) and (max-width: 480px){
 	.nav-bottom{
-	background-image: url("C:/Users/User/Desktop/Restorant/img/NavBottomImg.jpg");
+	background-image: url("/img/NavBottomImg.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -254,7 +254,7 @@ html, body{
     background-color: transparent;
     outline:none;
 	left: 0;
-	background: url("C:/Users/User/Desktop/Restorant/img/elements/left-chevron.svg") 0 0 / 100% no-repeat;
+	background: url("/img/left-chevron.svg") 0 0 / 100% no-repeat;
 }
 /*Стрелка вправо*/
 .slick-arrow.slick-next{
@@ -263,7 +263,7 @@ html, body{
     background-color: transparent;
     outline:none;
     right: 0;
-	background: url("C:/Users/User/Desktop/Restorant/img/elements/right-chevron.svg") 0 0 / 100% no-repeat;
+	background: url("/img/right-chevron.svg") 0 0 / 100% no-repeat;
 }
 
 .slider{
@@ -319,7 +319,7 @@ html, body{
     background-color: transparent;
     outline:none;
 	left: 0;
-	background: url("C:/Users/User/Desktop/Restorant/img/elements/left-chevron.svg") 0 0 / 100% no-repeat;
+	background: url("/img/left-chevron.svg") 0 0 / 100% no-repeat;
 }
 /*Стрелка вправо*/
 .slick-arrow.slick-next{
@@ -328,7 +328,7 @@ html, body{
     background-color: transparent;
     outline:none;
     right: 0;
-	background: url("C:/Users/User/Desktop/Restorant/img/elements/right-chevron.svg") 0 0 / 100% no-repeat;
+	background: url("/img/right-chevron.svg") 0 0 / 100% no-repeat;
 }
 
 .slider{
@@ -392,7 +392,7 @@ html, body{
     background-color: transparent;
     outline:none;
 	left: -30px;
-	background: url("C:/Users/User/Desktop/Restorant/img/elements/left-chevron.svg") 0 0 / 100% no-repeat;
+	background: url("/img/left-chevron.svg") 0 0 / 100% no-repeat;
 }
 /*Стрелка вправо*/
 .slick-arrow.slick-next{
@@ -401,7 +401,7 @@ html, body{
     background-color: transparent;
     outline:none;
     right: -30px;
-	background: url("C:/Users/User/Desktop/Restorant/img/elements/right-chevron.svg") 0 0 / 100% no-repeat;
+	background: url("/img/right-chevron.svg") 0 0 / 100% no-repeat;
 }
 
 }
