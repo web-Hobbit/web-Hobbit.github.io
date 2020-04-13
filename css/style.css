@@ -61,7 +61,7 @@ html, body{
 /*Низ шапки(картинка)*/
 
 .nav-bottom{
-	background-image: url("https://github.com/web-Hobbit/web-Hobbit.github.io/blob/master/img/NavBottomImg.jpg");
+	background-image: url("web-Hobbit.github.io/img/NavBottomImg.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
