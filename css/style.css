@@ -236,8 +236,8 @@ html, body{
 	top:40%;
 	z-index: 10;
     font-size: 0;
-    width:100px;
-    height:100px;
+    width: 50px;
+    height: 90px;
 }
 /*Стрелка влево*/
 .slick-arrow.slick-prev{
@@ -246,7 +246,7 @@ html, body{
     background-color: transparent;
     outline:none;
 	left: 0;
-	background-image: url("/img/left-chevron.png")no-repeat;
+	background: url("/img/left-chevron.svg") 0 0 / 100% no-repeat;
 }
 /*Стрелка вправо*/
 .slick-arrow.slick-next{
@@ -255,7 +255,7 @@ html, body{
     background-color: transparent;
     outline:none;
     right: 0;
-	background-image: url("/img/right-chevron.png")no-repeat;
+	background: url("/img/right-chevron.svg") 0 0 / 100% no-repeat;
 }
 
 .slider{
@@ -290,35 +290,6 @@ html, body{
 }
 
 
-/*
-
-.slider .slick-dots{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.slider .slick-dots li{
-	list-style: none;
-	margin: 0 10px;
-}
-
-.slider .slick-dots button{
-	font-size:0;
-	width: 10px;
-	height: 10px;
-	background-color: #c70e0e;
-	border-radius: 50%;
-	border:none;
-	outline:none;
-}
-
-.slider .slick-dots .slick-active button{
-	background-color: transparent;
-	border:solid #c70e0e 2px;
-	list-style: none;
-}*/
-
 @media screen and (min-width: 1360px) and (max-width: 4000px){
 	.slick-track{
 	display: flex;
@@ -330,8 +301,8 @@ html, body{
 	top:40%;
 	z-index: 10;
     font-size: 0;
-    width:100px;
-    height:100px;
+    width: 50px;
+    height: 90px;
 }
 /*Стрелка влево*/
 .slick-arrow.slick-prev{
@@ -340,7 +311,7 @@ html, body{
     background-color: transparent;
     outline:none;
 	left: 0;
-	background-image: url("/img/left-chevron.png")no-repeat;
+	background: url("/img/left-chevron.svg") 0 0 / 100% no-repeat;
 }
 /*Стрелка вправо*/
 .slick-arrow.slick-next{
@@ -349,7 +320,7 @@ html, body{
     background-color: transparent;
     outline:none;
     right: 0;
-	background-image: url("/img/right-chevron.png")no-repeat;
+	background: url("/img/right-chevron.svg") 0 0 / 100% no-repeat;
 }
 
 .slider{
@@ -418,7 +389,7 @@ html, body{
     background-color: transparent;
     outline:none;
 	left: -30px;
-	background-image: url("/img/left-chevron.png")no-repeat;
+	background: url("/img/left-chevron.svg") 0 0 / 100% no-repeat;
 }
 /*Стрелка вправо*/
 .slick-arrow.slick-next{
@@ -427,7 +398,7 @@ html, body{
     background-color: transparent;
     outline:none;
     right: -30px;
-	background-image: url("/img/right-chevron.png")no-repeat;
+	background: url("/img/right-chevron.svg") 0 0 / 100% no-repeat;
 }
 
 .slider .slick-dots{
@@ -454,7 +425,6 @@ html, body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 
 }
 
