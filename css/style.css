@@ -236,8 +236,8 @@ html, body{
 	top:40%;
 	z-index: 10;
     font-size: 0;
-    width: 50px;
-    height: 90px;
+    width:100px;
+    height:100px;
 }
 /*Стрелка влево*/
 .slick-arrow.slick-prev{
@@ -246,7 +246,7 @@ html, body{
     background-color: transparent;
     outline:none;
 	left: 0;
-	background-image: url("/img/left-chevron.png") no-repeat;
+	background-image: url("/img/left-chevron.png");
 }
 /*Стрелка вправо*/
 .slick-arrow.slick-next{
@@ -255,7 +255,7 @@ html, body{
     background-color: transparent;
     outline:none;
     right: 0;
-	background-image: url("/img/right-chevron.png") no-repeat;
+	background-image: url("/img/right-chevron.png");
 }
 
 .slider{
@@ -330,8 +330,8 @@ html, body{
 	top:40%;
 	z-index: 10;
     font-size: 0;
-    width: 50px;
-    height: 90px;
+    width:100px;
+    height:100px;
 }
 /*Стрелка влево*/
 .slick-arrow.slick-prev{
@@ -340,7 +340,7 @@ html, body{
     background-color: transparent;
     outline:none;
 	left: 0;
-	background-image: url("/img/left-chevron.png") no-repeat;
+	background-image: url("/img/left-chevron.png");
 }
 /*Стрелка вправо*/
 .slick-arrow.slick-next{
@@ -349,7 +349,7 @@ html, body{
     background-color: transparent;
     outline:none;
     right: 0;
-	background-image: url("/img/right-chevron.png") no-repeat;
+	background-image: url("/img/right-chevron.png");
 }
 
 .slider{
@@ -448,7 +448,7 @@ html, body{
     background-color: transparent;
     outline:none;
 	left: -30px;
-	background-image: url("/img/left-chevron.png") no-repeat;
+	background-image: url("/img/left-chevron.png");
 }
 /*Стрелка вправо*/
 .slick-arrow.slick-next{
@@ -457,7 +457,7 @@ html, body{
     background-color: transparent;
     outline:none;
     right: -30px;
-	background-image: url("/img/right-chevron.png") no-repeat;
+	background-image: url("/img/right-chevron.png");
 }
 
 .slider .slick-dots{
