@@ -270,6 +270,34 @@ html, body{
 	justify-content: center;
 }
 
+.slick-dots li button:before {
+ font-family: 'slick';
+  font-size: 10px;
+  line-height: 20px;
+
+  display: flex;
+	align-items: center;
+	justify-content: center;
+ 
+  width: 40px;
+  height: 40px;
+  content: '•'; /* <-- Вот этот символ */
+  
+  opacity: .25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*
+
+.slider .slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .slider .slick-dots li{
 	list-style: none;
 	margin: 0 10px;
@@ -285,12 +313,13 @@ html, body{
 	outline:none;
 }
 
-.slider .slick-dots li.slick-active button{
+.slider .slick-dots .slick-active button{
 	background-color: transparent;
-	border:solid #c70e0e 2px
-}
+	border:solid #c70e0e 2px;
+	list-style: none;
+}*/
 
-@media screen and (min-width: 1360px) and (max-width: 1600px){
+@media screen and (min-width: 1360px) and (max-width: 4000px){
 	.slick-track{
 	display: flex;
 	align-items: flex-start;
@@ -335,10 +364,39 @@ html, body{
 	justify-content: center;
 }
 
+.slick-dots li button:before {
+ font-family: 'slick';
+  font-size: 10px;
+  line-height: 20px;
+
+  display: flex;
+	align-items: center;
+	justify-content: center;
+
+  width: 40px;
+  height: 40px;
+  content: '•'; /* <-- Вот этот символ */
+  
+  opacity: .25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*
+.slider .slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
 .slider .slick-dots li{
 	list-style: none;
 	margin: 0 10px;
 }
+
 
 .slider .slick-dots button{
 	font-size:0;
@@ -352,11 +410,17 @@ html, body{
 
 .slider .slick-dots li.slick-active button{
 	background-color: transparent;
-	border:solid #c70e0e 2px
-}
+	border:solid #c70e0e 2px;
+	list-style: none;
+}*/
 }
 
 @media screen and (min-width: 960px) and (max-width: 1024px){
+  
+  .slider .slick-dots li{
+	list-style: none;
+	margin: 0 10px;
+}
 
   .slider__item img{
   	width: 260px;
@@ -395,6 +459,39 @@ html, body{
     right: -30px;
 	background: url("/img/elements/right-chevron.svg") 0 0 / 100% no-repeat;
 }
+
+.slider .slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slick-dots li button:before {
+ font-family: 'slick';
+  font-size: 10px;
+  line-height: 20px;
+ 
+  display: flex;
+	align-items: center;
+	justify-content: center;
+ 
+  width: 40px;
+  height: 40px;
+  content: '•'; /* <-- Вот этот символ */
+  
+  opacity: .25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*
+.slider .slick-dots .slick-active button{
+	background-color: transparent;
+	border:solid #c70e0e 2px;
+	list-style: none;
+}*/
 
 }
 
