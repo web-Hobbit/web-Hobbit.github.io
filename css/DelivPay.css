@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Gilroy';
     src: local('Gilroy Regular'), local('Gilroy-Regular'),
-        url('/font/Gilroy-Regular.woff2') format('woff2'),
-        url('/font/Gilroy-Regular.woff') format('woff'),
-        url('/font/Gilroy-Regular.ttf') format('truetype');
+        url('C:/Users/User/Desktop/shop/font/Gilroy-Regular.woff2') format('woff2'),
+        url('C:/Users/User/Desktop/shop/font/Gilroy-Regular.woff') format('woff'),
+        url('C:/Users/User/Desktop/shop/font/Gilroy-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
   }
@@ -25,7 +25,7 @@ body{
 }
 
 .menu{
-	background-image: url("/img/back-menu.png");
+	background-image: url("C:/Users/User/Desktop/shop/img/back-menu.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -218,7 +218,7 @@ ul li{
 	height: 250px;
 	position: relative;
 	top:30px;
-    background-image: url("/img/back-footer.png");
+    background-image: url("C:/Users/User/Desktop/shop/img/back-footer.png");
     display: flex;
     flex-direction: row;
     justify-content: space-around;
