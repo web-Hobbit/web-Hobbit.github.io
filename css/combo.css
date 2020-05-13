@@ -37,18 +37,12 @@ body{
 
 }
 
-.stocks{
-	background-image: url("C:/Users/User/Desktop/shop/img/stocks.png");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+.cart{
 	position: relative;
-	margin:0;
-	padding: 0;
-	height: 340px;   
-	width: 80%;
-
+	float:right;
+	bottom:70px;
 }
+
 
 .Logo{
 	display: flex;
@@ -150,67 +144,25 @@ ul li{
 	padding-left:30px;
 }
 
-.conditions {
+.ComboSetsTitle{
 	position: relative;
   z-index: 250;
   width: 80.4%;
   margin-left:19.6%;
-  top:270px;
+  bottom:30px;
 }
 
-.text-one{
+.ComboSetsTitle h3{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	font-family: 'Gilroy';
+
 }
-
-
-
-.a{
-	text-align: center;
-	font-size: 18px;
-	font-family: 'Gilroy'; 
-	position:relative;
-	bottom:20px;
-}
-
-.text-two{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-#b_img{
-padding: 20px;
-}
-
-.b{
-   display: flex;
-   flex-direction: row;
-}
-
-#c_img{
-	padding: 20px;
-}
-
-.c{
-   display: flex;
-   flex-direction: row;
-}
-
-#d_img{
-padding: 20px;
-}
-
-.d{
-	display: flex;
-	flex-direction: row;
-}
-
 
 
 .product{
-	background-color:FFF;
+	background-color:#FFF;
 	width: 268px;
 	height: 430px;
 	border-radius: 5%;
@@ -284,39 +236,21 @@ padding: 20px;
 	font-size: 16px;
 }
 
-.TopProductTitle{
-	display:flex;
-	flex-direction: row;
-	justify-content: center;
-	/*margin-left: 120px;*/
-	/*padding-top: 400px;*/
-    position: relative;
-    /*z-index: 250;
-    width: 80.4%;
-    margin-left:19.6%;*/
-    top:300px;
-	
-}
-
-/*
-.TopProductTitle{
+.ComboSets{
 	position: relative;
   z-index: 250;
   width: 80.4%;
   margin-left:19.6%;
-  top:270px
-}*/
+ bottom:10px;
+}
 
-.TopProductCart{
+.ComboSetsCart{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	position: relative;
-	/*padding-left:300px; 
-	margin-right: 80px;*/
 	padding-left:60px; 
 	margin-right: 40px;
-	top:310px;
 }
 
 .top-line{
@@ -335,24 +269,28 @@ padding: 20px;
 	z-index: 410;
 }
 
-.ProductsTitle{
-	display:flex;
-	flex-direction: row;
-	justify-content: center;
-	position: relative;
-	top: 330px;
+
+
+.ComboSetsNext{
+position: relative;
+  z-index: 250;
+  width: 80.4%;
+  margin-left:19.6%;
+ top:30px;
 }
 
-.ProductsCart{
+.ComboSetsNextCart{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
+	left:5px;
+	right: 2px;
 	position: relative;
-	/*padding-left:300px; 
-	margin-right: 80px;*/
-	padding-left:60px; 
-	margin-right: 40px;
-	top:340px;
+}
+
+.ComboSetsNextCart .product{
+	margin-right: 35px;
+	margin-left: 10px;
 }
 
 .MoreGoods{
@@ -360,7 +298,10 @@ padding: 20px;
 	flex-direction: row;
 	justify-content: center;
 	position: relative;
-	top:360px;
+  width: 80.4%;
+  margin-left:19.6%;
+ top:60px;
+
 }
 
 .MoreGoods button{
@@ -380,59 +321,12 @@ padding: 20px;
 }
 
 
-.ComboSetsTitle{
-    display:flex;
-	flex-direction: row;
-	justify-content: center;
-	/*margin-left: 120px;*/
-	/*padding-top: 400px;*/
-    position: relative;
-    /*z-index: 250;
-    width: 80.4%;
-    margin-left:19.6%;*/
-    top:360px;
-}
-
-.ComboSetsCart{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	position: relative;
-	/*padding-left:300px; 
-	margin-right: 80px;*/
-	padding-left:60px; 
-	margin-right: 40px;
-	top:370px;
-}
-
-.MoreGoodsTwo{
-	display:flex;
-	flex-direction: row;
-	justify-content: center;
-	position: relative;
-	top:400px;
-}
-
-.MoreGoodsTwo button{
-	cursor: pointer;
-	outline: none;
-	background:none;
-	border-color: #AC8760;
-	color:#AC8760;
-	font-family: 'Gilroy';
-	padding:10px;
-	width: 250px;
-	height: 50px;
-	border-radius: 40px;
-	font-size: 16px;
-}
-
 .footer{
 	/*border:solid 2px red;*/
 	width: 100%;
 	height: 250px;
 	position: relative;
-	top:440px;
+	top:100px;
     background-image: url("C:/Users/User/Desktop/shop/img/back-footer.png");
     display: flex;
     flex-direction: row;

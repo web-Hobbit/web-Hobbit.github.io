@@ -12,6 +12,7 @@ body{
 	margin:0;
 	padding:0;
 }
+
 .container{
 	display: flex;
 	flex-direction: row;
@@ -37,18 +38,56 @@ body{
 
 }
 
-.stocks{
-	background-image: url("C:/Users/User/Desktop/shop/img/stocks.png");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+.cart{
 	position: relative;
-	margin:0;
-	padding: 0;
-	height: 340px;   
-	width: 80%;
+	float:right;
+	bottom:70px;
+}
+
+.StockProduct{
+	position: relative;
+  z-index: 250;
+  width: 80.4%;
+  margin-left:19.6%;
+/*background-color: red;*/
+  
+}
+
+.StockProduct h2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    font-family: 'Gilroy';
+}
+
+
+
+.StockTea{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+		padding-left: 10px;
+	margin-right: 10px;
 
 }
+
+.StockTeaView{
+	display: flex;
+	flex-direction: column;
+}
+
+.StockTeaView p{
+	font-family: 'Gilroy';
+	font-size: 18px;
+}
+
+
+
+.Sn_icon a i{
+	margin-right: 15px;
+	padding-right: 5px;
+}
+
 
 .Logo{
 	display: flex;
@@ -117,7 +156,6 @@ ul li{
     outline: none;
 }
 
-
 .SubMenu{ 
 	display:none;
 	position: relative;
@@ -142,181 +180,12 @@ ul li{
 	flex-direction: row;
 	margin-right: 10px;
 	position: relative;
-	top:570px;
+	top:580px;
 	z-index: 500;
 }
 
 .Soc-networks p{
 	padding-left:30px;
-}
-
-.conditions {
-	position: relative;
-  z-index: 250;
-  width: 80.4%;
-  margin-left:19.6%;
-  top:270px;
-}
-
-.text-one{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-
-
-.a{
-	text-align: center;
-	font-size: 18px;
-	font-family: 'Gilroy'; 
-	position:relative;
-	bottom:20px;
-}
-
-.text-two{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-#b_img{
-padding: 20px;
-}
-
-.b{
-   display: flex;
-   flex-direction: row;
-}
-
-#c_img{
-	padding: 20px;
-}
-
-.c{
-   display: flex;
-   flex-direction: row;
-}
-
-#d_img{
-padding: 20px;
-}
-
-.d{
-	display: flex;
-	flex-direction: row;
-}
-
-
-
-.product{
-	background-color:FFF;
-	width: 268px;
-	height: 430px;
-	border-radius: 5%;
-	box-shadow: 0 0 7px 2px #726F69;
-}
-
-.weight{
-	display: flex;
-	flex-direction: row;
-	justify-content: start;
-	overflow: hidden;
-	position: relative;
-	right: 7px;
-	bottom:5px;
-}
-
-.wt{
-	background-color: #FEF8ED;
-	width:55px; 
-	height:25px;
-	text-align: center;
-	/*border-top-left-radius: 10%;
-	border-bottom-left-radius: 10%;
-	border-top-right-radius: 10%;
-	border-bottom-right-radius: 10%;*/
-	cursor: pointer;
-}
-
-.wt p{
-	margin:2px;
-	padding: 0;
-}
-
-.active{background-color: #FFF; box-shadow: 0px 0px 3px  #726F69; width:55px; 
-	height:24px; border-radius: 20px;}
-
-.product{
-	display:flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.product-desc
-{
-	position: relative;
-	bottom: 10px;
-}
-
-.product-desc p
-{
-	position: relative;
-	margin-bottom: 5px;
-}
-
-.CostandCart{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.ord-cart{
-	margin-left:85px;
-	width: 115px;
-	height: 30px;
-	border-radius: 20px;
-	color:#FFF;
-	background-color: #AC8760;
-	border:none;
-	position: relative;
-	top:10px;
-	font-size: 16px;
-}
-
-.TopProductTitle{
-	display:flex;
-	flex-direction: row;
-	justify-content: center;
-	/*margin-left: 120px;*/
-	/*padding-top: 400px;*/
-    position: relative;
-    /*z-index: 250;
-    width: 80.4%;
-    margin-left:19.6%;*/
-    top:300px;
-	
-}
-
-/*
-.TopProductTitle{
-	position: relative;
-  z-index: 250;
-  width: 80.4%;
-  margin-left:19.6%;
-  top:270px
-}*/
-
-.TopProductCart{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	position: relative;
-	/*padding-left:300px; 
-	margin-right: 80px;*/
-	padding-left:60px; 
-	margin-right: 40px;
-	top:310px;
 }
 
 .top-line{
@@ -330,101 +199,15 @@ padding: 20px;
 	border-top:solid 2px #f7e1aa;
 	width: 261px;
 	position: relative;
-	top:570px;
-	right:6px;
+	top:575px;
 	z-index: 410;
 }
 
-.ProductsTitle{
-	display:flex;
-	flex-direction: row;
-	justify-content: center;
-	position: relative;
-	top: 330px;
-}
-
-.ProductsCart{
+.map{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	position: relative;
-	/*padding-left:300px; 
-	margin-right: 80px;*/
-	padding-left:60px; 
-	margin-right: 40px;
-	top:340px;
-}
-
-.MoreGoods{
-	display:flex;
-	flex-direction: row;
-	justify-content: center;
-	position: relative;
-	top:360px;
-}
-
-.MoreGoods button{
-	cursor: pointer;
-	outline: none;
-	background:none;
-	border-color: #AC8760;
-	color:#AC8760;
-	font-family: 'Gilroy';
-	padding:10px;
-	width: 250px;
-	height: 50px;
-	border-radius: 40px;
-	font-size: 16px;
-	
-	/*padding-right:30;*/
-}
-
-
-.ComboSetsTitle{
-    display:flex;
-	flex-direction: row;
-	justify-content: center;
-	/*margin-left: 120px;*/
-	/*padding-top: 400px;*/
-    position: relative;
-    /*z-index: 250;
-    width: 80.4%;
-    margin-left:19.6%;*/
-    top:360px;
-}
-
-.ComboSetsCart{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	position: relative;
-	/*padding-left:300px; 
-	margin-right: 80px;*/
-	padding-left:60px; 
-	margin-right: 40px;
-	top:370px;
-}
-
-.MoreGoodsTwo{
-	display:flex;
-	flex-direction: row;
-	justify-content: center;
-	position: relative;
-	top:400px;
-}
-
-.MoreGoodsTwo button{
-	cursor: pointer;
-	outline: none;
-	background:none;
-	border-color: #AC8760;
-	color:#AC8760;
-	font-family: 'Gilroy';
-	padding:10px;
-	width: 250px;
-	height: 50px;
-	border-radius: 40px;
-	font-size: 16px;
+	justify-content: flex-end;
+	padding-right: 25px;
 }
 
 .footer{
@@ -432,7 +215,7 @@ padding: 20px;
 	width: 100%;
 	height: 250px;
 	position: relative;
-	top:440px;
+	top:30px;
     background-image: url("C:/Users/User/Desktop/shop/img/back-footer.png");
     display: flex;
     flex-direction: row;
