@@ -1,0 +1,331 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('C:/Users/User/Desktop/shop/font/Gilroy-Regular.woff2') format('woff2'),
+        url('C:/Users/User/Desktop/shop/font/Gilroy-Regular.woff') format('woff'),
+        url('C:/Users/User/Desktop/shop/font/Gilroy-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+	margin:0;
+	padding:0;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	margin: 0px auto;
+	width: 100%;
+	position:absolute;
+	left:0px;
+	top:0px;
+
+}
+
+.menu{
+	background-image: url("C:/Users/User/Desktop/shop/img/back-menu.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-top:0;
+	padding-top: 0;
+	height: 650px;  
+	width: 20%;
+	z-index: 100;
+
+}
+
+.cart{
+	position: relative;
+	float:right;
+	bottom:70px;
+}
+
+.StockProduct{
+	position: relative;
+  z-index: 250;
+  width: 80.4%;
+  margin-left:19.6%;
+/*background-color: red;*/
+  
+}
+
+.StockProduct h2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    font-family: 'Gilroy';
+}
+
+
+
+.StockTea{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+		padding-left: 10px;
+	margin-right: 10px;
+
+}
+
+.StockTeaView{
+	display: flex;
+	flex-direction: column;
+}
+
+.StockTeaView p{
+	font-family: 'Gilroy';
+	font-size: 18px;
+}
+
+
+
+.Sn_icon a i{
+	margin-right: 15px;
+	padding-right: 5px;
+}
+
+
+.Logo{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: relative;
+	bottom:-10px;
+}
+
+.NavMenu{
+	position: relative;
+	padding-top: 15px;
+}
+
+ul li{
+	list-style-type:none;
+	color:#f7e1aa;
+	font-size: 18px;
+	font-family: 'Gilroy';
+	margin-top: 10px;
+}
+
+.nav a{ 
+	
+    outline: none;
+    text-decoration: none;
+}
+.Menu{ 
+	cursor:pointer; 
+	line-height: 2rem;
+	min-height: 2rem;
+	/*padding: 0 1rem;*/
+	color:#f7e1aa;
+	font-size: 18px;
+	font-family: 'Gilroy';
+}
+
+.Menu.active{ 
+	font-weight: bold;
+	background:none !important;
+    outline: none;
+    text-decoration: none;
+}
+.Menu.active a{
+	border:none;
+    outline: none;
+    text-decoration: none;
+}
+
+.Menu:after{ 
+	content: "\f104"; /* добавляем иконку дом */
+    font-family: FontAwesome;
+    color: #f7e1aa;
+    margin-right: 10px;
+    padding-left: 10px;
+   outline: none;
+
+}
+
+.Menu.active:after{
+	content: "\f107"; /* добавляем иконку дом */
+    font-family: FontAwesome;
+    color: #f7e1aa;
+    margin-right: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.SubMenu{ 
+	display:none;
+	position: relative;
+	/*padding: 1rem;*/
+}
+
+.SubMenu ul{ 
+	position: relative;
+	right: 20px;
+}
+.fa-instagram {
+	color:#f7e1aa;
+	position: relative;
+}
+
+.fa-vk{
+	color:#f7e1aa;
+	position: relative;
+}
+.Soc-networks{
+	display: flex;
+	flex-direction: row;
+	margin-right: 10px;
+	position: relative;
+	top:580px;
+	z-index: 500;
+}
+
+.Soc-networks p{
+	padding-left:30px;
+}
+
+.top-line{
+	border-top:solid 2px #f7e1aa;
+	width: 261px;
+	position: relative;
+	top:15px;
+}
+
+.bottom-line{
+	border-top:solid 2px #f7e1aa;
+	width: 261px;
+	position: relative;
+	top:575px;
+	z-index: 410;
+}
+
+.map{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding-right: 25px;
+}
+
+.footer{
+	/*border:solid 2px red;*/
+	width: 100%;
+	height: 250px;
+	position: relative;
+	top:30px;
+    background-image: url("C:/Users/User/Desktop/shop/img/back-footer.png");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.Links{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   font-family: 'Gilroy'; 
+  /* padding-top: 30px;*/
+
+}
+
+.Links a{
+   font-size:16px;
+   color: #f7e1aa;
+   padding-top: 20px;
+}
+
+.SocNet-link a{
+	padding-left:15px;
+}
+
+.SocNet-link{
+padding-top: 20px;
+}
+
+.GoodsInfoLinks ul li a{
+  text-decoration: none;
+  color: #f7e1aa;
+  font-family: 'Gilroy';
+}
+
+.GoodsLinks ul li a{
+	text-decoration: none;
+  color: #f7e1aa;
+  font-family: 'Gilroy';
+}
+
+
+.FeedbackForm{
+	font-family: 'Gilroy';
+	font-size:16px;
+	color: #f7e1aa;
+}
+
+.reserv-call{
+	display: flex;
+	flex-direction: column;
+    padding-top: 10px;
+}
+
+
+.reserv-call input {
+	margin:10px;
+	background: none;
+	border-color:#f7e1aa;
+	border-radius:40px;
+}
+
+::-webkit-input-placeholder {color: #f7e1aa}
+
+::-moz-placeholder { /* Firefox 19+ */
+   color: #f7e1aa;
+ }
+::-ms-input-placeholder{
+   color: #f7e1aa;
+ }
+::-moz-placeholder{ /* Firefox 18- */
+   color: #f7e1aa;
+}
+
+.UserName{
+	color: #f7e1aa;
+	font-family: 'Gilroy';
+	font-size:16px;
+    text-align: left;
+    padding-left: 20px;
+    width: 200px;
+	height: 30px;
+	outline: none;
+}
+
+.UserPhone{
+	color: #f7e1aa;
+	font-family: 'Gilroy';
+	font-size:16px;
+    text-align: left;
+    padding-left: 20px;
+    width: 200px;
+	height: 30px;
+	outline: none;
+}
+
+.ResCall-btn{
+	width: 220px;
+	height: 30px;
+	border-radius:40px;
+	background-color: #f7e1aa;
+	color:black;
+	font-family: 'Gilroy';
+	text-align: center;
+	font-size:16px;
+	outline: none;
+    border:none;
+    cursor: pointer;
+    margin-left:10px;
+    margin-top:10px;
+}
