@@ -13,7 +13,7 @@
     	<!--Меню-->
     	<div class="menu">
     		<div class="Logo">
-    			<a href="/index.html"><img src="/img/Logo.png"></a>
+    			<a href="/shop/index.html"><img src="/img/Logo.png"></a>
     		</div>
              
            <div class="top-line"></div>
@@ -32,19 +32,19 @@
                           <a href="#" class="Menu">черный чай</a>
                             <div class="SubMenu">
                                <ul class="black-tea">
-                                 <a href="#"><li>С добавками</li></a>
-                                 <a href="#"><li>Без добавок</li></a>
+                                 <a href="/catalog/BlackTeaAdd.html"><li>С добавками</li></a>
+                                 <a href="/catalog/BlackTea.html"><li>Без добавок</li></a>
                                 </ul>
                              </div>
                         </li>
             
-            <a href="#"><li>Зеленый чай</li></a>
-            <a href="#"><li>Травяной чай</li></a>
-            <a href="#"><li>Фруктовый чай</li></a>
-            <a href="#"><li>Тематический чай</li></a>
-            <a href="#"><li>Пуэр</li></a>
-            <a href="#"><li>Экзотический чай</li></a>
-            <a href="#"><li>Кофе</li></a>
+            <a href="/catalog/GreenTea.html"><li>Зеленый чай</li></a>
+            <a href="/catalog/HerbalTea.html"><li>Травяной чай</li></a>
+            <a href="/catalog/FruitTea.html"><li>Фруктовый чай</li></a>
+            <a href="/catalog/ThemedTea.html"><li>Тематический чай</li></a>
+            <a href="/catalog/Puer.html"><li>Пуэр</li></a>
+            <a href="/catalog/ExoticTea.html"><li>Экзотический чай</li></a>
+            <a href="/catalog/Coffee.html"><li>Кофе</li></a>
          </ul>
       </div>
     </li>
@@ -121,27 +121,32 @@
 			<li><a href="/contacts/contacts.html">Контакты</a></li>
 			<li><a href="/stocks/stocks.html">Акции</a></li>
 			<li><a href="/Deliv_Pay/deliv_pay.html">Доставка и оплата</a></li>
-			<li><a href="/shop/combo/combo.html">Комбо наборы</a></li>
-			<li><a href="#">Каталог</a></li>
+			<li><a href="/combo/combo.html">Комбо наборы</a></li>
 		</ul>
 	</div>
 
 	<div class="GoodsLinks">
-		<ul>
-			<li><a href="#">Черный чай</a></li>
-			<li><a href="#">Зеленый чай</a></li>
-			<li><a href="#">Кофе</a></li>
-			<li><a href="#">Пуэро</a></li>
-			<li><a href="#">Фруктовый чай</a></li>
-		</ul>
+		 <ul>
+        <li><a href="/catalog/BlackTea.html">Черный чай</a></li>
+        <li><a href="/catalog/GreenTea.html">Зеленый чай</a></li>
+        <li><a href="/catalog/Coffee.html">Кофе</a></li>
+        <li><a href="/catalog/Puer.html">Пуэро</a></li>
+        <li><a href="/catalog/FruitTea.html">Фруктовый чай</a></li>
+    </ul>
 	</div>
 
 	<div class="FeedbackForm">
-		<form class="reserv-call" id="reservation-form_1" action="send.php" method="POST">
-          <input type="text" id="name" class="UserName" placeholder="Имя" required>
-          <input name="tel" type="tel" id="phone" class="UserPhone" placeholder="Телефон" required>
-          <button type="submit" class="ResCall-btn" id="submit">Заказать звонок</button>
-          <div id="result"></div>
+        <form class="BackCall" id="BackCall_form" action="/php/mail.php" method="POST">
+
+            <!-- Hidden Required Fields -->
+          <input type="hidden" name="project_name" value="Чайный дом"> <!--Имя сайта-->
+          <input type="hidden" name="admin_email" value="pilya458@gmail.com"> <!--Почта получателя-->
+          <input type="hidden" name="form_subject" value="Заявка на обратный звонок"> <!--Тема письма-->
+          <!-- END Hidden Required Fields -->
+
+          <input type="text" name="Имя" class="UserName" placeholder="Имя" required>
+          <input type="text" name="Телефон" class="UserPhone" placeholder="Телефон" required>
+          <button type="submit" id="submit" class="BackCall-btn">Заказать звонок</button>
         </form>
 	</div>
 
