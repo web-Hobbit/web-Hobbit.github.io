@@ -43,3 +43,36 @@ for(var i = 0; i < elements.length; i++)
                   this.classList.add("active");  
                 };
             }
+/*
+$(".plus").click(function() {
+  var $NumberPlus = $(".number");
+  $NumberPlus.val(parseInt($NumberPlus.val()) + 1);
+  $NumberPlus.change();
+}
+);
+
+(".minus").click(function() {
+  var $NumberMinus = $(".number");
+  $NumberMinus.val(parseInt($NumberMinus.val()) - 1);
+  $NumberMinus.change();
+
+  if($NumberMinus.val() === 0)
+}
+);*/
+
+$(document).ready(function() {
+    $('.Minus').click(function () {
+      var $input = $(this).parent().find('input');
+      var count = parseInt($input.val()) - 1;
+      count = count < 1 ? 1 : count;
+      $input.val(count);
+      $input.change();
+      return false;
+    });
+    $('.Plus').click(function () {
+      var $input = $(this).parent().find('input');
+      $input.val(parseInt($input.val()) + 1);
+      $input.change();
+      return false;
+    });
+  });
