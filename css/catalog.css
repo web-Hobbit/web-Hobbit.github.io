@@ -12,7 +12,6 @@ body{
 	margin:0;
 	padding:0;
 }
-
 .container{
 	display: flex;
 	flex-direction: row;
@@ -38,54 +37,23 @@ body{
 
 }
 
-.cart{
+
+.stocks{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin:0;
+	padding: 0;
+	height: 80px;   
+	width: 80%;
+
+}
+
+.stocks img{
 	position: relative;
 	float:right;
-	bottom:70px;
 }
-
-.StockProduct{
-	position: relative;
-  z-index: 250;
-  width: 80.4%;
-  margin-left:19.6%;
-}
-
-.StockProduct h2{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-    font-family: 'Gilroy';
-}
-
-
-
-.StockTea{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-		padding-left: 10px;
-	margin-right: 10px;
-
-}
-
-.StockTeaView{
-	display: flex;
-	flex-direction: column;
-}
-
-.StockTeaView p{
-	font-family: 'Gilroy';
-	font-size: 18px;
-}
-
-
-
-.Sn_icon a i{
-	margin-right: 15px;
-	padding-right: 5px;
-}
-
 
 .Logo{
 	display: flex;
@@ -153,6 +121,7 @@ ul li{
     outline: none;
 }
 
+
 .SubMenu{ 
 	display:none;
 	position: relative;
@@ -176,12 +145,111 @@ ul li{
 	flex-direction: row;
 	margin-right: 10px;
 	position: relative;
-	top:580px;
+	top:570px;
 	z-index: 500;
 }
 
 .Soc-networks p{
 	padding-left:30px;
+}
+
+
+.product{
+	background-color:#FFF;
+	width: 268px;
+	height: 430px;
+	border-radius: 5%;
+	box-shadow: 0 0 7px 2px #726F69;
+}
+
+.weight{
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	overflow: hidden;
+	position: relative;
+	right: 7px;
+	bottom:5px;
+}
+
+.wt{
+	background-color: #FEF8ED;
+	width:55px; 
+	height:25px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.wt p{
+	margin:2px;
+	padding: 0;
+}
+
+.active{background-color: #FFF; box-shadow: 0px 0px 3px  #726F69; width:55px; 
+	height:24px; border-radius: 20px;}
+
+.product{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.product-desc
+{
+	position: relative;
+	bottom: 10px;
+}
+
+.product-desc p
+{
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.CostandCart{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.ord-cart{
+	margin-left:85px;
+	width: 115px;
+	height: 30px;
+	border-radius: 20px;
+	color:#FFF;
+	background-color: #AC8760;
+	border:none;
+	position: relative;
+	top:10px;
+	font-size: 16px;
+}
+
+.Products{
+		position: relative;
+  z-index: 250;
+  width: 80.4%;
+  margin-left:19.6%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProductTitle{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+    position: relative;
+    
+	font-family: 'Gilroy';
+}
+
+.ProductCart{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: relative;
+	padding-left:60px; 
+	margin-right: 40px;
 }
 
 .top-line{
@@ -195,22 +263,78 @@ ul li{
 	border-top:solid 2px #f7e1aa;
 	width: 261px;
 	position: relative;
-	top:575px;
+	top:570px;
 	z-index: 410;
 }
 
-.map{
+.ProductsCart{
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
-	padding-right: 25px;
+	justify-content: space-around;
+	position: relative;
+	padding-left:60px; 
+	margin-right: 40px;
+	top:30px;
 }
+
+.MoreGoods{
+  width: 80.4%;
+  margin-left:19.6%;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	position: relative;
+	top:60px;
+}
+
+.MoreGoods button{
+	cursor: pointer;
+	outline: none;
+	background:none;
+	border-color: #AC8760;
+	color:#AC8760;
+	font-family: 'Gilroy';
+	padding:10px;
+	width: 250px;
+	height: 50px;
+	border-radius: 40px;
+	font-size: 16px;
+}
+
+.ComboSets{
+		position: relative;
+  z-index: 250;
+  width: 80.4%;
+  margin-left:19.6%;
+}
+
+
+.ComboSetsTitle{
+    display:flex;
+	flex-direction: row;
+	justify-content: center;
+    position: relative;
+    top:100px;
+    font-family: 'Gilroy';
+}
+
+.ComboSetsCart{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: relative;
+	padding-left:60px; 
+	margin-right: 40px;
+	top:110px;
+}
+
+
 
 .footer{
 	width: 100%;
 	height: 250px;
 	position: relative;
-	top:30px;
+	top:160px;
     background-image: url("/img/back-footer.png");
     display: flex;
     flex-direction: row;

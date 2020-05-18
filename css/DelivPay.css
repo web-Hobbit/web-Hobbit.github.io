@@ -49,8 +49,6 @@ body{
   z-index: 250;
   width: 80.4%;
   margin-left:19.6%;
-/*background-color: red;*/
-  
 }
 
 .StockProduct h2{
@@ -83,8 +81,6 @@ body{
 }
 
 
-
-
 .Logo{
 	display: flex;
 	flex-direction: row;
@@ -115,7 +111,6 @@ ul li{
 	cursor:pointer; 
 	line-height: 2rem;
 	min-height: 2rem;
-	/*padding: 0 1rem;*/
 	color:#f7e1aa;
 	font-size: 18px;
 	font-family: 'Gilroy';
@@ -213,7 +208,6 @@ ul li{
 }
 
 .footer{
-	/*border:solid 2px red;*/
 	width: 100%;
 	height: 250px;
 	position: relative;
@@ -231,8 +225,6 @@ ul li{
    align-items: center;
    text-align: center;
    font-family: 'Gilroy'; 
-  /* padding-top: 30px;*/
-
 }
 
 .Links a{
@@ -268,14 +260,14 @@ padding-top: 20px;
 	color: #f7e1aa;
 }
 
-.reserv-call{
+.BackCall{
 	display: flex;
 	flex-direction: column;
     padding-top: 10px;
 }
 
 
-.reserv-call input {
+.BackCall input {
 	margin:10px;
 	background: none;
 	border-color:#f7e1aa;
@@ -316,7 +308,7 @@ padding-top: 20px;
 	outline: none;
 }
 
-.ResCall-btn{
+.BackCall-btn{
 	width: 220px;
 	height: 30px;
 	border-radius:40px;
