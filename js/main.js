@@ -1,28 +1,19 @@
+(function($) {
 
-var nav = function() {
-    var data = $(".nav").attr("data-accordion");
-                     
-    $(".Menu").on("click", function(){
-        if(data === "close"){
-            $(".SubMenu").sliderUp();
-               
-            if($(this).hasClass("active")){
-               $(this).toggleClass("active");
-            }
-            else{
-                $(".Menu").removeClass("active");
-              
-                $(this).toggleClass("active");
-            }
-        }
-        else{
-            $(this).toggleClass("active");
-        }
-        $(this).next(".SubMenu").not(":animated").slideToggle();
-                         
-    });
-}
+	"use strict";
 
-nav();
-  
+	var fullHeight = function() {
 
+		$('.js-fullheight').css('height', $(window).height());
+		$(window).resize(function(){
+			$('.js-fullheight').css('height', $(window).height());
+		});
+
+	};
+	fullHeight();
+
+	$('#sidebarCollapse').on('click', function () {
+      $('#sidebar').toggleClass('active');
+  });
+
+})(jQuery);
