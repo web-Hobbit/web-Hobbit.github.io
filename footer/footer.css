@@ -1,0 +1,250 @@
+@font-face{
+    font-family: 'Gilroy';
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('/font/Gilroy-Regular.woff2') format('woff2'),
+        url('/font/Gilroy-Regular.woff') format('woff'),
+        url('/font/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'Gilroy';
+}
+
+footer ul li a{
+	color:#f7e1aa;
+}
+footer ul li a:hover{
+	color: #AC8760;
+	text-decoration: none;
+}
+
+footer .fa-vk{
+color:#f7e1aa;
+}
+
+footer .fa-instagram{
+color:#f7e1aa;
+}
+
+footer{
+	background-image: url("/img/back-footer.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#oferta{
+	 text-decoration: underline;
+    -webkit-text-decoration-color: #f7e1aa;
+    text-decoration-color: #f7e1aa;
+	color:#f7e1aa;
+	font-size: 12px;
+	text-align: center;
+	margin-right: 160px;
+	width: 180px;
+}
+
+
+.BackCall{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.BackCall input{
+	margin-top:10px;
+	background: none;
+	border-color:#f7e1aa;
+	border-radius:40px;
+}
+
+::-webkit-input-placeholder {color: #f7e1aa}
+
+::-moz-placeholder { /* Firefox 19+ */
+   color: #f7e1aa;
+ }
+::-ms-input-placeholder{
+   color: #f7e1aa;
+ }
+::-moz-placeholder{ /* Firefox 18- */
+   color: #f7e1aa;
+}
+
+.UserName{
+	color: #f7e1aa;
+	font-family: 'Gilroy';
+	font-size:16px;
+    text-align: left;
+    padding-left: 20px;
+    width: 200px;
+	height: 35px;
+	outline: none;
+}
+
+.UserPhone{
+	color: #f7e1aa;
+	font-family: 'Gilroy';
+	font-size:16px;
+    text-align: left;
+    padding-left: 20px;
+    width: 200px;
+	height: 35px;
+	outline: none;
+}
+
+.BackCall-btn{
+	width: 200px;
+	height: 30px;
+	border-radius:40px;
+	background-color: #f7e1aa;
+	color:black;
+	font-family: 'Gilroy';
+	text-align: center;
+	font-size:16px;
+	outline: none;
+    border:none;
+    cursor: pointer;
+    margin-top:10px;
+}
+
+
+@media screen and (min-width: 960px) and (max-width: 1400px) {
+footer{
+    background-image: url("/img/back-footer.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.BackCall{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+footer{
+    background-image: url("/img/back-footer.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+
+}
+
+#oferta{
+	 text-decoration: underline;
+    -webkit-text-decoration-color: #f7e1aa;
+    text-decoration-color: #f7e1aa;
+	color:#f7e1aa;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 0px;
+	width: 180px;
+}
+.BackCall{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+}
+
+
+
+@media screen and (min-width: 575px) and (max-width: 768px) {
+footer{
+    background-image: url("/img/back-footer.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+
+}
+
+#oferta{
+	 text-decoration: underline;
+    -webkit-text-decoration-color: #f7e1aa;
+    text-decoration-color: #f7e1aa;
+	color:#f7e1aa;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 165px;
+	width: 180px;
+}
+
+.BackCall{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 165px;
+}
+
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 575px) {
+footer{
+    background-image: url("/img/back-footer.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+
+}
+
+#oferta{
+	 text-decoration: underline;
+    -webkit-text-decoration-color: #f7e1aa;
+    text-decoration-color: #f7e1aa;
+	color:#f7e1aa;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 100px;
+	width: 220px;
+}
+
+.BackCall{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 110px;
+}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+footer{
+    background-image: url("/img/back-footer.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 580px;
+
+}
+
+#oferta{
+	 text-decoration: underline;
+    -webkit-text-decoration-color: #f7e1aa;
+    text-decoration-color: #f7e1aa;
+	color:#f7e1aa;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 60px;
+	width: 180px;
+}
+.BackCall{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 70px;
+
+}
+
+}
