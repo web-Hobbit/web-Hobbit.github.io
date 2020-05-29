@@ -1,0 +1,99 @@
+
+
+.Footer{
+     position: relative;
+    top:160px;
+}
+
+.uslovia{
+    position: relative;
+    top:80px;
+}
+
+.TopProducts{
+      position: relative;
+    top:60px;
+}
+
+.Products{
+    position: relative;
+    top:30px;
+}
+
+.ComboProducts{
+    position: relative;
+    top:60px;
+}
+
+.weight{
+    border-radius: 20px;
+    border:none;
+    cursor: pointer;
+    outline: none !important;
+    margin:3px;
+}
+
+@media only screen and (max-width: 767px) 
+{   .Stocks_img 
+    {       
+        background-image: url("/img/stocks.png");   
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575.98px)
+{ 
+   .card{
+        margin-left: 20px;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 480px)
+{ 
+   .card{
+        margin-left: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+}
+
+ 
+@media screen and screen and (min-width: 768px) and (max-width: 991.98px){
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px){
+
+}
+
+
+@media screen and (min-width: 1200px){
+
+}
+
+@media screen and (max-width: 320px)
+{
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

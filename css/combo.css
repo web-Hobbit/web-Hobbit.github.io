@@ -1,0 +1,18 @@
+.ComboProducts{
+    position: relative;
+    top:80px;
+}
+
+
+.Footer{
+     position: relative;
+    top:100px;
+}
+
+.weight{
+    border-radius: 20px;
+    border:none;
+    cursor: pointer;
+    outline: none !important;
+    margin:3px;
+}
